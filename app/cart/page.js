@@ -1,4 +1,2 @@
 import Link from "next/link";
-export default function Cart() {
-  return <main className="page"><header className="header"><Link href="/" className="logo">HOCO</Link></header><section className="centerPage"><h1>Your bag</h1><p>Your cart is empty.</p><Link href="/shop" className="button">Continue shopping</Link></section></main>;
-}
+export default function Cart(){return <main className="page"><header className="header"><Link href="/" className="logo">HOCO</Link></header><section className="centerPage"><h1>Your bag</h1><p>Your cart is empty.</p><Link href="/shop" className="button">Continue shopping</Link></section></main>}

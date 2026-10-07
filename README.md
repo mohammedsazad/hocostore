@@ -1,17 +1,25 @@
-# HOCO Store
+# HOCO Store — Phase 1
 
-Clean Next.js foundation for the HOCO electronics e-commerce website.
+Stable storefront phase.
 
-## Important
-This repository intentionally starts with a small, stable storefront foundation.
+Included:
+- Premium HOCO homepage
+- Shop page
+- Product catalog with sample products
+- Search
+- Category filters
+- Sorting
+- Product detail pages
+- Responsive layout
+- Account/cart/orders placeholders
 
-Build order:
-1. Verify deployment and navigation
-2. Add Supabase
-3. Add authentication and customer/admin roles
-4. Add products and real images
-5. Add cart and checkout
-6. Add orders and admin dashboard
-7. Add payments, coupons, reviews, analytics and notifications
+Not yet connected:
+- Supabase
+- Real product database
+- Authentication
+- Admin
+- Payments
+- Persistent cart
+- Real image/video uploads
 
-Do not add credentials to the repository.
+Those will be added only after this phase is verified on Vercel.
